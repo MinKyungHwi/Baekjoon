@@ -16,11 +16,11 @@ int main(){
 	for(int i=0; i<n; i++){
 	
 		float avg,people;
-		int count =0,temp =0, score =0;
+		int count =0,temp =0,a =0;
 		
 		cin>> people;
-		score = people;
-		int *arr2=new int[score];
+		a = people;
+		int *arr2=new int[a];
 		
 		for(int j=0; j<people; j++){
 			cin >> arr2[j];
@@ -40,5 +40,4 @@ int main(){
 	for(int i=0; i<n ;i++){
 		cout << str[i] << "%" << endl;
 	}
-	
 }

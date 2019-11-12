@@ -20,8 +20,8 @@ int main(void)
 		sum += score[i];		
 	}
 		
-	cout << fixed; 		//소수점를 고정표현 
-	cout.precision(2);	// 2자리까지 표현 
+	cout << fixed; 		
+	cout.precision(2);	
 	cout << sum / subject << endl;
 
 	return 0;
